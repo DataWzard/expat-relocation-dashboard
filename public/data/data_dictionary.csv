@@ -1,0 +1,30 @@
+column,type,description
+expat_id,string,Unique id
+age,int,Age at relocation
+sex,string,M / F
+home_region,string,Region of origin
+host_region,string,Region relocated to
+cultural_distance,float,CIRCUMSTANCE: cultural distance home->host (0-10) — drives maladjustment & return
+host_gender_inequality,float,CIRCUMSTANCE: gender inequality in host country (0-10)
+relocation_type,string,corporate_assignment / self_initiated / study / family
+moved_with_family,int,1 if relocated with family
+partner_relocated,int,1 if partner relocated too
+children_relocated,int,1 if children relocated too
+distance_from_home_km,int,Physical distance from home (km)
+assignment_length_months,int,Intended assignment length (months)
+language_proficiency,float,BEHAVIOUR: host-language proficiency (0-10)
+cultural_empathy,float,BEHAVIOUR/DISPOSITION: cultural empathy (0-10) — stronger than Big Five for adjustment
+cultural_intelligence,float,BEHAVIOUR/DISPOSITION: cultural intelligence / CQ (0-10)
+emotional_stability,float,DISPOSITION: emotional stability / low neuroticism (0-10)
+extraversion,float,DISPOSITION: extraversion (0-10) — helps more at high cultural distance
+openness,float,DISPOSITION: openness (0-10)
+prior_intl_experience_years,float,BEHAVIOUR: prior international experience (years)
+self_efficacy,float,DISPOSITION: self-efficacy (0-10)
+pre_move_prep,float,"BEHAVIOUR: pre-move preparation, e.g. language classes/research (0-10)"
+employer_support,float,SUPPORT: employer relocation support (0-10)
+host_social_network_size,float,SUPPORT: size of host social network
+local_friends_first_year,float,SUPPORT: local friends made in first year
+community_support,float,SUPPORT: community support (0-10) — strongest single lever
+family_adjustment,float,"SUPPORT: how well family adjusted (0-10; NaN if moved alone) — pivotal, both help & failure cause"
+adjustment_satisfaction,float,TARGET (continuous): overall adjustment satisfaction (0-10)
+stayed,int,"TARGET (binary): 1 if completed the relocation, 0 if premature return"

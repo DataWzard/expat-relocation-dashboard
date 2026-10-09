@@ -1,0 +1,1509 @@
+{
+  "generated_from_records": 40000,
+  "baseline_stay_rate": 0.779,
+  "structural_model": {
+    "drivers": [
+      {
+        "key": "cultural_distance",
+        "label": "Cultural distance",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.6435,
+        "odds_ratio": 0.525
+      },
+      {
+        "key": "community_support",
+        "label": "Community support",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.5223,
+        "odds_ratio": 1.686
+      },
+      {
+        "key": "employer_support",
+        "label": "Employer support",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.4285,
+        "odds_ratio": 1.535
+      },
+      {
+        "key": "language_proficiency",
+        "label": "Language proficiency",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.4102,
+        "odds_ratio": 1.507
+      },
+      {
+        "key": "moved_with_family",
+        "label": "Moved with family",
+        "unit": "yes versus no",
+        "coefficient": -0.2843,
+        "odds_ratio": 0.753
+      },
+      {
+        "key": "local_friends_first_year",
+        "label": "Local friendships in year one",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.2659,
+        "odds_ratio": 1.305
+      },
+      {
+        "key": "cultural_empathy",
+        "label": "Cultural empathy",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.2467,
+        "odds_ratio": 1.28
+      },
+      {
+        "key": "cultural_intelligence",
+        "label": "Cultural intelligence",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.2192,
+        "odds_ratio": 1.245
+      },
+      {
+        "key": "prior_intl_experience_years",
+        "label": "Prior international experience",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.1474,
+        "odds_ratio": 1.159
+      },
+      {
+        "key": "relocation_type_study",
+        "label": "Study relocation",
+        "unit": "versus reference group",
+        "coefficient": 0.1094,
+        "odds_ratio": 1.116
+      },
+      {
+        "key": "pre_move_prep",
+        "label": "Pre-move preparation",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0957,
+        "odds_ratio": 1.1
+      },
+      {
+        "key": "emotional_stability",
+        "label": "Emotional stability",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0863,
+        "odds_ratio": 1.09
+      },
+      {
+        "key": "host_gender_inequality",
+        "label": "Host gender inequality",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0695,
+        "odds_ratio": 0.933
+      },
+      {
+        "key": "self_efficacy",
+        "label": "Self-efficacy",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0688,
+        "odds_ratio": 1.071
+      },
+      {
+        "key": "relocation_type_self_initiated",
+        "label": "Self-initiated relocation",
+        "unit": "versus reference group",
+        "coefficient": 0.065,
+        "odds_ratio": 1.067
+      },
+      {
+        "key": "extraversion",
+        "label": "Extraversion",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0389,
+        "odds_ratio": 1.04
+      },
+      {
+        "key": "distance_from_home_km",
+        "label": "Distance from home",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0351,
+        "odds_ratio": 1.036
+      },
+      {
+        "key": "host_social_network_size",
+        "label": "Host social network size",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0179,
+        "odds_ratio": 0.982
+      },
+      {
+        "key": "sex_M",
+        "label": "Male",
+        "unit": "versus reference group",
+        "coefficient": 0.0158,
+        "odds_ratio": 1.016
+      },
+      {
+        "key": "assignment_length_months",
+        "label": "Assignment length",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.013,
+        "odds_ratio": 1.013
+      },
+      {
+        "key": "age",
+        "label": "Age",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0113,
+        "odds_ratio": 0.989
+      },
+      {
+        "key": "partner_relocated",
+        "label": "Partner relocated",
+        "unit": "yes versus no",
+        "coefficient": 0.0088,
+        "odds_ratio": 1.009
+      },
+      {
+        "key": "children_relocated",
+        "label": "Children relocated",
+        "unit": "yes versus no",
+        "coefficient": 0.0048,
+        "odds_ratio": 1.005
+      },
+      {
+        "key": "openness",
+        "label": "Openness",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0026,
+        "odds_ratio": 1.003
+      },
+      {
+        "key": "relocation_type_family",
+        "label": "Family relocation",
+        "unit": "versus reference group",
+        "coefficient": -0.0008,
+        "odds_ratio": 0.999
+      }
+    ],
+    "auc": 0.783,
+    "brier": 0.14,
+    "stats": {
+      "age": {
+        "mean": 34.091875,
+        "std": 6.805110872305829
+      },
+      "cultural_distance": {
+        "mean": 4.9986125,
+        "std": 2.149036371224031
+      },
+      "host_gender_inequality": {
+        "mean": 4.0225125,
+        "std": 1.9582863522334393
+      },
+      "distance_from_home_km": {
+        "mean": 5002.47,
+        "std": 3465.181726706407
+      },
+      "assignment_length_months": {
+        "mean": 30.707325,
+        "std": 20.522164026836325
+      },
+      "language_proficiency": {
+        "mean": 3.602972500000001,
+        "std": 2.439909714363167
+      },
+      "cultural_empathy": {
+        "mean": 5.9790775,
+        "std": 1.9586117530010256
+      },
+      "cultural_intelligence": {
+        "mean": 7.227385000000001,
+        "std": 1.9180890390633591
+      },
+      "emotional_stability": {
+        "mean": 5.491,
+        "std": 1.9725982865246539
+      },
+      "extraversion": {
+        "mean": 5.1951525,
+        "std": 2.059667388619762
+      },
+      "openness": {
+        "mean": 5.96398,
+        "std": 1.8759830915016265
+      },
+      "prior_intl_experience_years": {
+        "mean": 2.8151724999999996,
+        "std": 2.3769892816846587
+      },
+      "self_efficacy": {
+        "mean": 5.9755325,
+        "std": 1.8711421889968038
+      },
+      "pre_move_prep": {
+        "mean": 4.5038800000000005,
+        "std": 2.153746374483309
+      },
+      "employer_support": {
+        "mean": 3.615777499999999,
+        "std": 2.466198455212749
+      },
+      "host_social_network_size": {
+        "mean": 6.50365,
+        "std": 2.733456909757313
+      },
+      "local_friends_first_year": {
+        "mean": 5.147175,
+        "std": 2.5111181810848726
+      },
+      "community_support": {
+        "mean": 4.895625,
+        "std": 2.16267527830116
+      }
+    }
+  },
+  "bridge_model": {
+    "drivers": [
+      {
+        "key": "adjustment_satisfaction",
+        "label": "Adjustment satisfaction",
+        "unit": "per 1 SD increase",
+        "coefficient": 1.189,
+        "odds_ratio": 3.284
+      },
+      {
+        "key": "cultural_distance",
+        "label": "Cultural distance",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.2857,
+        "odds_ratio": 0.751
+      },
+      {
+        "key": "moved_with_family",
+        "label": "Moved with family",
+        "unit": "yes versus no",
+        "coefficient": -0.2297,
+        "odds_ratio": 0.795
+      },
+      {
+        "key": "community_support",
+        "label": "Community support",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.1597,
+        "odds_ratio": 1.173
+      },
+      {
+        "key": "language_proficiency",
+        "label": "Language proficiency",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.1153,
+        "odds_ratio": 1.122
+      },
+      {
+        "key": "employer_support",
+        "label": "Employer support",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.115,
+        "odds_ratio": 1.122
+      },
+      {
+        "key": "relocation_type_study",
+        "label": "Study relocation",
+        "unit": "versus reference group",
+        "coefficient": 0.1068,
+        "odds_ratio": 1.113
+      },
+      {
+        "key": "local_friends_first_year",
+        "label": "Local friendships in year one",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0718,
+        "odds_ratio": 1.074
+      },
+      {
+        "key": "relocation_type_self_initiated",
+        "label": "Self-initiated relocation",
+        "unit": "versus reference group",
+        "coefficient": 0.0684,
+        "odds_ratio": 1.071
+      },
+      {
+        "key": "emotional_stability",
+        "label": "Emotional stability",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0443,
+        "odds_ratio": 0.957
+      },
+      {
+        "key": "pre_move_prep",
+        "label": "Pre-move preparation",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0419,
+        "odds_ratio": 0.959
+      },
+      {
+        "key": "cultural_empathy",
+        "label": "Cultural empathy",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0369,
+        "odds_ratio": 0.964
+      },
+      {
+        "key": "distance_from_home_km",
+        "label": "Distance from home",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0334,
+        "odds_ratio": 1.034
+      },
+      {
+        "key": "cultural_intelligence",
+        "label": "Cultural intelligence",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0296,
+        "odds_ratio": 0.971
+      },
+      {
+        "key": "host_gender_inequality",
+        "label": "Host gender inequality",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0283,
+        "odds_ratio": 0.972
+      },
+      {
+        "key": "host_social_network_size",
+        "label": "Host social network size",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0203,
+        "odds_ratio": 0.98
+      },
+      {
+        "key": "partner_relocated",
+        "label": "Partner relocated",
+        "unit": "yes versus no",
+        "coefficient": 0.0174,
+        "odds_ratio": 1.018
+      },
+      {
+        "key": "assignment_length_months",
+        "label": "Assignment length",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0133,
+        "odds_ratio": 1.013
+      },
+      {
+        "key": "age",
+        "label": "Age",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0098,
+        "odds_ratio": 0.99
+      },
+      {
+        "key": "prior_intl_experience_years",
+        "label": "Prior international experience",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0073,
+        "odds_ratio": 0.993
+      },
+      {
+        "key": "relocation_type_family",
+        "label": "Family relocation",
+        "unit": "versus reference group",
+        "coefficient": 0.0067,
+        "odds_ratio": 1.007
+      },
+      {
+        "key": "sex_M",
+        "label": "Male",
+        "unit": "versus reference group",
+        "coefficient": 0.0066,
+        "odds_ratio": 1.007
+      },
+      {
+        "key": "self_efficacy",
+        "label": "Self-efficacy",
+        "unit": "per 1 SD increase",
+        "coefficient": -0.0057,
+        "odds_ratio": 0.994
+      },
+      {
+        "key": "openness",
+        "label": "Openness",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0047,
+        "odds_ratio": 1.005
+      },
+      {
+        "key": "extraversion",
+        "label": "Extraversion",
+        "unit": "per 1 SD increase",
+        "coefficient": 0.0024,
+        "odds_ratio": 1.002
+      },
+      {
+        "key": "children_relocated",
+        "label": "Children relocated",
+        "unit": "yes versus no",
+        "coefficient": 0.0008,
+        "odds_ratio": 1.001
+      }
+    ],
+    "auc": 0.818,
+    "brier": 0.13,
+    "stats": {
+      "age": {
+        "mean": 34.091875,
+        "std": 6.805110872305829
+      },
+      "cultural_distance": {
+        "mean": 4.9986125,
+        "std": 2.149036371224031
+      },
+      "host_gender_inequality": {
+        "mean": 4.0225125,
+        "std": 1.9582863522334393
+      },
+      "distance_from_home_km": {
+        "mean": 5002.47,
+        "std": 3465.181726706407
+      },
+      "assignment_length_months": {
+        "mean": 30.707325,
+        "std": 20.522164026836325
+      },
+      "language_proficiency": {
+        "mean": 3.602972500000001,
+        "std": 2.439909714363167
+      },
+      "cultural_empathy": {
+        "mean": 5.9790775,
+        "std": 1.9586117530010256
+      },
+      "cultural_intelligence": {
+        "mean": 7.227385000000001,
+        "std": 1.9180890390633591
+      },
+      "emotional_stability": {
+        "mean": 5.491,
+        "std": 1.9725982865246539
+      },
+      "extraversion": {
+        "mean": 5.1951525,
+        "std": 2.059667388619762
+      },
+      "openness": {
+        "mean": 5.96398,
+        "std": 1.8759830915016265
+      },
+      "prior_intl_experience_years": {
+        "mean": 2.8151724999999996,
+        "std": 2.3769892816846587
+      },
+      "self_efficacy": {
+        "mean": 5.9755325,
+        "std": 1.8711421889968038
+      },
+      "pre_move_prep": {
+        "mean": 4.5038800000000005,
+        "std": 2.153746374483309
+      },
+      "employer_support": {
+        "mean": 3.615777499999999,
+        "std": 2.466198455212749
+      },
+      "host_social_network_size": {
+        "mean": 6.50365,
+        "std": 2.733456909757313
+      },
+      "local_friends_first_year": {
+        "mean": 5.147175,
+        "std": 2.5111181810848726
+      },
+      "community_support": {
+        "mean": 4.895625,
+        "std": 2.16267527830116
+      },
+      "adjustment_satisfaction": {
+        "mean": 5.450365000000001,
+        "std": 2.183640851141735
+      }
+    }
+  },
+  "routes": [
+    {
+      "home": "E_Asia",
+      "host": "E_Asia",
+      "count": 675,
+      "stay_rate": 0.7896,
+      "expected_stay": 0.7766,
+      "unexplained_gap": 0.013,
+      "adjustment": 5.404,
+      "cultural_distance": 5.019,
+      "language": 3.536,
+      "community": 4.782,
+      "employer_support": 3.561,
+      "local_friends": 5.013,
+      "family_share": 0.47,
+      "corporate_share": 0.3052,
+      "self_initiated_share": 0.4267,
+      "study_share": 0.157,
+      "family_type_share": 0.1111
+    },
+    {
+      "home": "E_Asia",
+      "host": "Gulf",
+      "count": 799,
+      "stay_rate": 0.771,
+      "expected_stay": 0.7733,
+      "unexplained_gap": -0.0023,
+      "adjustment": 5.456,
+      "cultural_distance": 5.047,
+      "language": 3.647,
+      "community": 4.874,
+      "employer_support": 3.48,
+      "local_friends": 5.045,
+      "family_share": 0.452,
+      "corporate_share": 0.2641,
+      "self_initiated_share": 0.4543,
+      "study_share": 0.1577,
+      "family_type_share": 0.1239
+    },
+    {
+      "home": "E_Asia",
+      "host": "N_America",
+      "count": 1274,
+      "stay_rate": 0.7684,
+      "expected_stay": 0.7779,
+      "unexplained_gap": -0.0095,
+      "adjustment": 5.494,
+      "cultural_distance": 5.041,
+      "language": 3.579,
+      "community": 4.927,
+      "employer_support": 3.735,
+      "local_friends": 5.087,
+      "family_share": 0.439,
+      "corporate_share": 0.3093,
+      "self_initiated_share": 0.4074,
+      "study_share": 0.1593,
+      "family_type_share": 0.124
+    },
+    {
+      "home": "E_Asia",
+      "host": "Oceania",
+      "count": 349,
+      "stay_rate": 0.7765,
+      "expected_stay": 0.7788,
+      "unexplained_gap": -0.0023,
+      "adjustment": 5.541,
+      "cultural_distance": 4.963,
+      "language": 3.619,
+      "community": 4.987,
+      "employer_support": 3.452,
+      "local_friends": 4.851,
+      "family_share": 0.41,
+      "corporate_share": 0.2865,
+      "self_initiated_share": 0.4011,
+      "study_share": 0.149,
+      "family_type_share": 0.1633
+    },
+    {
+      "home": "E_Asia",
+      "host": "SE_Asia",
+      "count": 621,
+      "stay_rate": 0.7874,
+      "expected_stay": 0.7733,
+      "unexplained_gap": 0.0142,
+      "adjustment": 5.318,
+      "cultural_distance": 5.05,
+      "language": 3.515,
+      "community": 4.855,
+      "employer_support": 3.571,
+      "local_friends": 5.142,
+      "family_share": 0.406,
+      "corporate_share": 0.3237,
+      "self_initiated_share": 0.401,
+      "study_share": 0.1514,
+      "family_type_share": 0.124
+    },
+    {
+      "home": "E_Asia",
+      "host": "W_Europe",
+      "count": 1769,
+      "stay_rate": 0.7835,
+      "expected_stay": 0.7833,
+      "unexplained_gap": 0.0002,
+      "adjustment": 5.507,
+      "cultural_distance": 4.958,
+      "language": 3.656,
+      "community": 4.932,
+      "employer_support": 3.609,
+      "local_friends": 5.169,
+      "family_share": 0.448,
+      "corporate_share": 0.2968,
+      "self_initiated_share": 0.42,
+      "study_share": 0.1662,
+      "family_type_share": 0.117
+    },
+    {
+      "home": "E_Europe",
+      "host": "E_Asia",
+      "count": 659,
+      "stay_rate": 0.7663,
+      "expected_stay": 0.7739,
+      "unexplained_gap": -0.0076,
+      "adjustment": 5.461,
+      "cultural_distance": 4.979,
+      "language": 3.512,
+      "community": 4.956,
+      "employer_support": 3.498,
+      "local_friends": 5.106,
+      "family_share": 0.469,
+      "corporate_share": 0.2944,
+      "self_initiated_share": 0.4234,
+      "study_share": 0.1593,
+      "family_type_share": 0.1229
+    },
+    {
+      "home": "E_Europe",
+      "host": "Gulf",
+      "count": 767,
+      "stay_rate": 0.7731,
+      "expected_stay": 0.7793,
+      "unexplained_gap": -0.0062,
+      "adjustment": 5.463,
+      "cultural_distance": 4.994,
+      "language": 3.538,
+      "community": 4.804,
+      "employer_support": 3.621,
+      "local_friends": 5.239,
+      "family_share": 0.455,
+      "corporate_share": 0.2816,
+      "self_initiated_share": 0.4224,
+      "study_share": 0.1773,
+      "family_type_share": 0.1186
+    },
+    {
+      "home": "E_Europe",
+      "host": "N_America",
+      "count": 1300,
+      "stay_rate": 0.7823,
+      "expected_stay": 0.7821,
+      "unexplained_gap": 0.0002,
+      "adjustment": 5.51,
+      "cultural_distance": 4.975,
+      "language": 3.619,
+      "community": 4.969,
+      "employer_support": 3.497,
+      "local_friends": 5.087,
+      "family_share": 0.432,
+      "corporate_share": 0.2862,
+      "self_initiated_share": 0.4208,
+      "study_share": 0.1669,
+      "family_type_share": 0.1262
+    },
+    {
+      "home": "E_Europe",
+      "host": "Oceania",
+      "count": 324,
+      "stay_rate": 0.7932,
+      "expected_stay": 0.7644,
+      "unexplained_gap": 0.0288,
+      "adjustment": 5.294,
+      "cultural_distance": 5.043,
+      "language": 3.544,
+      "community": 4.839,
+      "employer_support": 3.454,
+      "local_friends": 4.895,
+      "family_share": 0.417,
+      "corporate_share": 0.2747,
+      "self_initiated_share": 0.4444,
+      "study_share": 0.1605,
+      "family_type_share": 0.1204
+    },
+    {
+      "home": "E_Europe",
+      "host": "SE_Asia",
+      "count": 530,
+      "stay_rate": 0.8,
+      "expected_stay": 0.7771,
+      "unexplained_gap": 0.0229,
+      "adjustment": 5.529,
+      "cultural_distance": 5.093,
+      "language": 3.64,
+      "community": 4.912,
+      "employer_support": 3.723,
+      "local_friends": 5.23,
+      "family_share": 0.432,
+      "corporate_share": 0.3453,
+      "self_initiated_share": 0.3849,
+      "study_share": 0.1491,
+      "family_type_share": 0.1208
+    },
+    {
+      "home": "E_Europe",
+      "host": "W_Europe",
+      "count": 1960,
+      "stay_rate": 0.7704,
+      "expected_stay": 0.7805,
+      "unexplained_gap": -0.0101,
+      "adjustment": 5.496,
+      "cultural_distance": 4.999,
+      "language": 3.664,
+      "community": 4.862,
+      "employer_support": 3.617,
+      "local_friends": 5.241,
+      "family_share": 0.447,
+      "corporate_share": 0.3097,
+      "self_initiated_share": 0.4204,
+      "study_share": 0.1592,
+      "family_type_share": 0.1107
+    },
+    {
+      "home": "LatAm",
+      "host": "E_Asia",
+      "count": 531,
+      "stay_rate": 0.7834,
+      "expected_stay": 0.7743,
+      "unexplained_gap": 0.0092,
+      "adjustment": 5.398,
+      "cultural_distance": 5.059,
+      "language": 3.568,
+      "community": 4.834,
+      "employer_support": 3.515,
+      "local_friends": 5.113,
+      "family_share": 0.467,
+      "corporate_share": 0.2806,
+      "self_initiated_share": 0.3804,
+      "study_share": 0.1714,
+      "family_type_share": 0.1676
+    },
+    {
+      "home": "LatAm",
+      "host": "Gulf",
+      "count": 620,
+      "stay_rate": 0.7726,
+      "expected_stay": 0.7809,
+      "unexplained_gap": -0.0083,
+      "adjustment": 5.456,
+      "cultural_distance": 4.958,
+      "language": 3.473,
+      "community": 4.823,
+      "employer_support": 3.662,
+      "local_friends": 5.194,
+      "family_share": 0.4,
+      "corporate_share": 0.3355,
+      "self_initiated_share": 0.4177,
+      "study_share": 0.1419,
+      "family_type_share": 0.1048
+    },
+    {
+      "home": "LatAm",
+      "host": "N_America",
+      "count": 1096,
+      "stay_rate": 0.7765,
+      "expected_stay": 0.7786,
+      "unexplained_gap": -0.0022,
+      "adjustment": 5.472,
+      "cultural_distance": 5.002,
+      "language": 3.66,
+      "community": 4.848,
+      "employer_support": 3.564,
+      "local_friends": 5.224,
+      "family_share": 0.415,
+      "corporate_share": 0.3066,
+      "self_initiated_share": 0.4088,
+      "study_share": 0.1423,
+      "family_type_share": 0.1423
+    },
+    {
+      "home": "LatAm",
+      "host": "Oceania",
+      "count": 268,
+      "stay_rate": 0.7761,
+      "expected_stay": 0.7796,
+      "unexplained_gap": -0.0035,
+      "adjustment": 5.601,
+      "cultural_distance": 5.099,
+      "language": 3.596,
+      "community": 5.1,
+      "employer_support": 3.573,
+      "local_friends": 5.104,
+      "family_share": 0.504,
+      "corporate_share": 0.2761,
+      "self_initiated_share": 0.4366,
+      "study_share": 0.1493,
+      "family_type_share": 0.1381
+    },
+    {
+      "home": "LatAm",
+      "host": "SE_Asia",
+      "count": 414,
+      "stay_rate": 0.756,
+      "expected_stay": 0.7733,
+      "unexplained_gap": -0.0172,
+      "adjustment": 5.319,
+      "cultural_distance": 4.934,
+      "language": 3.544,
+      "community": 4.77,
+      "employer_support": 3.668,
+      "local_friends": 5.012,
+      "family_share": 0.459,
+      "corporate_share": 0.3164,
+      "self_initiated_share": 0.4638,
+      "study_share": 0.1232,
+      "family_type_share": 0.0966
+    },
+    {
+      "home": "LatAm",
+      "host": "W_Europe",
+      "count": 1519,
+      "stay_rate": 0.792,
+      "expected_stay": 0.7761,
+      "unexplained_gap": 0.0158,
+      "adjustment": 5.462,
+      "cultural_distance": 5.099,
+      "language": 3.541,
+      "community": 4.921,
+      "employer_support": 3.67,
+      "local_friends": 5.255,
+      "family_share": 0.431,
+      "corporate_share": 0.3199,
+      "self_initiated_share": 0.418,
+      "study_share": 0.1514,
+      "family_type_share": 0.1106
+    },
+    {
+      "home": "MENA",
+      "host": "E_Asia",
+      "count": 452,
+      "stay_rate": 0.781,
+      "expected_stay": 0.7827,
+      "unexplained_gap": -0.0017,
+      "adjustment": 5.416,
+      "cultural_distance": 5.044,
+      "language": 3.69,
+      "community": 5.041,
+      "employer_support": 3.592,
+      "local_friends": 4.985,
+      "family_share": 0.493,
+      "corporate_share": 0.3009,
+      "self_initiated_share": 0.3938,
+      "study_share": 0.1504,
+      "family_type_share": 0.1549
+    },
+    {
+      "home": "MENA",
+      "host": "Gulf",
+      "count": 591,
+      "stay_rate": 0.7631,
+      "expected_stay": 0.769,
+      "unexplained_gap": -0.0059,
+      "adjustment": 5.421,
+      "cultural_distance": 5.072,
+      "language": 3.472,
+      "community": 4.854,
+      "employer_support": 3.474,
+      "local_friends": 5.151,
+      "family_share": 0.465,
+      "corporate_share": 0.2978,
+      "self_initiated_share": 0.4095,
+      "study_share": 0.1607,
+      "family_type_share": 0.132
+    },
+    {
+      "home": "MENA",
+      "host": "N_America",
+      "count": 928,
+      "stay_rate": 0.7748,
+      "expected_stay": 0.7779,
+      "unexplained_gap": -0.0031,
+      "adjustment": 5.459,
+      "cultural_distance": 5.054,
+      "language": 3.698,
+      "community": 4.886,
+      "employer_support": 3.629,
+      "local_friends": 5.106,
+      "family_share": 0.45,
+      "corporate_share": 0.2996,
+      "self_initiated_share": 0.4256,
+      "study_share": 0.1713,
+      "family_type_share": 0.1034
+    },
+    {
+      "home": "MENA",
+      "host": "Oceania",
+      "count": 222,
+      "stay_rate": 0.7973,
+      "expected_stay": 0.7813,
+      "unexplained_gap": 0.016,
+      "adjustment": 5.447,
+      "cultural_distance": 5.182,
+      "language": 3.583,
+      "community": 5.118,
+      "employer_support": 3.584,
+      "local_friends": 5.297,
+      "family_share": 0.446,
+      "corporate_share": 0.3153,
+      "self_initiated_share": 0.4009,
+      "study_share": 0.1802,
+      "family_type_share": 0.1036
+    },
+    {
+      "home": "MENA",
+      "host": "SE_Asia",
+      "count": 371,
+      "stay_rate": 0.7951,
+      "expected_stay": 0.775,
+      "unexplained_gap": 0.0201,
+      "adjustment": 5.492,
+      "cultural_distance": 5.098,
+      "language": 3.681,
+      "community": 4.855,
+      "employer_support": 3.571,
+      "local_friends": 5.189,
+      "family_share": 0.439,
+      "corporate_share": 0.2749,
+      "self_initiated_share": 0.4367,
+      "study_share": 0.1941,
+      "family_type_share": 0.0943
+    },
+    {
+      "home": "MENA",
+      "host": "W_Europe",
+      "count": 1384,
+      "stay_rate": 0.7695,
+      "expected_stay": 0.7753,
+      "unexplained_gap": -0.0058,
+      "adjustment": 5.341,
+      "cultural_distance": 4.993,
+      "language": 3.544,
+      "community": 4.854,
+      "employer_support": 3.591,
+      "local_friends": 5.082,
+      "family_share": 0.432,
+      "corporate_share": 0.2854,
+      "self_initiated_share": 0.4422,
+      "study_share": 0.1438,
+      "family_type_share": 0.1286
+    },
+    {
+      "home": "N_America",
+      "host": "E_Asia",
+      "count": 596,
+      "stay_rate": 0.7953,
+      "expected_stay": 0.7837,
+      "unexplained_gap": 0.0116,
+      "adjustment": 5.368,
+      "cultural_distance": 4.816,
+      "language": 3.674,
+      "community": 4.957,
+      "employer_support": 3.488,
+      "local_friends": 5.193,
+      "family_share": 0.388,
+      "corporate_share": 0.297,
+      "self_initiated_share": 0.3893,
+      "study_share": 0.1611,
+      "family_type_share": 0.1527
+    },
+    {
+      "home": "N_America",
+      "host": "Gulf",
+      "count": 665,
+      "stay_rate": 0.7594,
+      "expected_stay": 0.7736,
+      "unexplained_gap": -0.0142,
+      "adjustment": 5.336,
+      "cultural_distance": 4.972,
+      "language": 3.589,
+      "community": 4.925,
+      "employer_support": 3.59,
+      "local_friends": 5.209,
+      "family_share": 0.418,
+      "corporate_share": 0.2782,
+      "self_initiated_share": 0.4436,
+      "study_share": 0.1639,
+      "family_type_share": 0.1143
+    },
+    {
+      "home": "N_America",
+      "host": "N_America",
+      "count": 1149,
+      "stay_rate": 0.785,
+      "expected_stay": 0.7872,
+      "unexplained_gap": -0.0021,
+      "adjustment": 5.548,
+      "cultural_distance": 4.92,
+      "language": 3.558,
+      "community": 4.995,
+      "employer_support": 3.646,
+      "local_friends": 5.047,
+      "family_share": 0.429,
+      "corporate_share": 0.3098,
+      "self_initiated_share": 0.389,
+      "study_share": 0.1645,
+      "family_type_share": 0.1366
+    },
+    {
+      "home": "N_America",
+      "host": "Oceania",
+      "count": 234,
+      "stay_rate": 0.7607,
+      "expected_stay": 0.7565,
+      "unexplained_gap": 0.0042,
+      "adjustment": 5.211,
+      "cultural_distance": 5.517,
+      "language": 3.659,
+      "community": 4.929,
+      "employer_support": 3.782,
+      "local_friends": 5.043,
+      "family_share": 0.432,
+      "corporate_share": 0.3034,
+      "self_initiated_share": 0.4188,
+      "study_share": 0.1581,
+      "family_type_share": 0.1197
+    },
+    {
+      "home": "N_America",
+      "host": "SE_Asia",
+      "count": 479,
+      "stay_rate": 0.7808,
+      "expected_stay": 0.7792,
+      "unexplained_gap": 0.0016,
+      "adjustment": 5.434,
+      "cultural_distance": 4.96,
+      "language": 3.526,
+      "community": 4.916,
+      "employer_support": 3.744,
+      "local_friends": 5.255,
+      "family_share": 0.432,
+      "corporate_share": 0.3486,
+      "self_initiated_share": 0.3987,
+      "study_share": 0.1336,
+      "family_type_share": 0.119
+    },
+    {
+      "home": "N_America",
+      "host": "W_Europe",
+      "count": 1674,
+      "stay_rate": 0.7748,
+      "expected_stay": 0.7775,
+      "unexplained_gap": -0.0027,
+      "adjustment": 5.402,
+      "cultural_distance": 5.01,
+      "language": 3.543,
+      "community": 4.832,
+      "employer_support": 3.494,
+      "local_friends": 5.213,
+      "family_share": 0.454,
+      "corporate_share": 0.2832,
+      "self_initiated_share": 0.4211,
+      "study_share": 0.1762,
+      "family_type_share": 0.1195
+    },
+    {
+      "home": "SSA",
+      "host": "E_Asia",
+      "count": 464,
+      "stay_rate": 0.7435,
+      "expected_stay": 0.7819,
+      "unexplained_gap": -0.0384,
+      "adjustment": 5.495,
+      "cultural_distance": 5.077,
+      "language": 3.645,
+      "community": 5.036,
+      "employer_support": 3.684,
+      "local_friends": 5.194,
+      "family_share": 0.453,
+      "corporate_share": 0.3233,
+      "self_initiated_share": 0.4203,
+      "study_share": 0.125,
+      "family_type_share": 0.1315
+    },
+    {
+      "home": "SSA",
+      "host": "Gulf",
+      "count": 568,
+      "stay_rate": 0.794,
+      "expected_stay": 0.7731,
+      "unexplained_gap": 0.0209,
+      "adjustment": 5.419,
+      "cultural_distance": 5.14,
+      "language": 3.63,
+      "community": 4.931,
+      "employer_support": 3.718,
+      "local_friends": 5.129,
+      "family_share": 0.442,
+      "corporate_share": 0.3222,
+      "self_initiated_share": 0.3926,
+      "study_share": 0.1743,
+      "family_type_share": 0.1109
+    },
+    {
+      "home": "SSA",
+      "host": "N_America",
+      "count": 944,
+      "stay_rate": 0.7966,
+      "expected_stay": 0.788,
+      "unexplained_gap": 0.0087,
+      "adjustment": 5.527,
+      "cultural_distance": 4.984,
+      "language": 3.779,
+      "community": 4.991,
+      "employer_support": 3.548,
+      "local_friends": 5.195,
+      "family_share": 0.424,
+      "corporate_share": 0.3294,
+      "self_initiated_share": 0.3983,
+      "study_share": 0.1716,
+      "family_type_share": 0.1006
+    },
+    {
+      "home": "SSA",
+      "host": "Oceania",
+      "count": 240,
+      "stay_rate": 0.8208,
+      "expected_stay": 0.7936,
+      "unexplained_gap": 0.0272,
+      "adjustment": 5.599,
+      "cultural_distance": 4.861,
+      "language": 3.854,
+      "community": 5.025,
+      "employer_support": 3.749,
+      "local_friends": 5.312,
+      "family_share": 0.379,
+      "corporate_share": 0.3417,
+      "self_initiated_share": 0.3958,
+      "study_share": 0.1458,
+      "family_type_share": 0.1167
+    },
+    {
+      "home": "SSA",
+      "host": "SE_Asia",
+      "count": 427,
+      "stay_rate": 0.7892,
+      "expected_stay": 0.7701,
+      "unexplained_gap": 0.0191,
+      "adjustment": 5.469,
+      "cultural_distance": 5.03,
+      "language": 3.328,
+      "community": 4.924,
+      "employer_support": 3.731,
+      "local_friends": 5.059,
+      "family_share": 0.457,
+      "corporate_share": 0.3115,
+      "self_initiated_share": 0.4286,
+      "study_share": 0.1593,
+      "family_type_share": 0.1007
+    },
+    {
+      "home": "SSA",
+      "host": "W_Europe",
+      "count": 1385,
+      "stay_rate": 0.7827,
+      "expected_stay": 0.7816,
+      "unexplained_gap": 0.0011,
+      "adjustment": 5.457,
+      "cultural_distance": 5.012,
+      "language": 3.614,
+      "community": 4.918,
+      "employer_support": 3.662,
+      "local_friends": 5.181,
+      "family_share": 0.452,
+      "corporate_share": 0.296,
+      "self_initiated_share": 0.4339,
+      "study_share": 0.1487,
+      "family_type_share": 0.1213
+    },
+    {
+      "home": "S_Asia",
+      "host": "E_Asia",
+      "count": 651,
+      "stay_rate": 0.7757,
+      "expected_stay": 0.7854,
+      "unexplained_gap": -0.0096,
+      "adjustment": 5.496,
+      "cultural_distance": 4.956,
+      "language": 3.598,
+      "community": 4.994,
+      "employer_support": 3.615,
+      "local_friends": 5.129,
+      "family_share": 0.432,
+      "corporate_share": 0.3195,
+      "self_initiated_share": 0.4009,
+      "study_share": 0.1367,
+      "family_type_share": 0.1429
+    },
+    {
+      "home": "S_Asia",
+      "host": "Gulf",
+      "count": 719,
+      "stay_rate": 0.7566,
+      "expected_stay": 0.7774,
+      "unexplained_gap": -0.0208,
+      "adjustment": 5.427,
+      "cultural_distance": 4.906,
+      "language": 3.622,
+      "community": 4.824,
+      "employer_support": 3.494,
+      "local_friends": 5.175,
+      "family_share": 0.42,
+      "corporate_share": 0.267,
+      "self_initiated_share": 0.4159,
+      "study_share": 0.1739,
+      "family_type_share": 0.1433
+    },
+    {
+      "home": "S_Asia",
+      "host": "N_America",
+      "count": 1332,
+      "stay_rate": 0.771,
+      "expected_stay": 0.7767,
+      "unexplained_gap": -0.0057,
+      "adjustment": 5.394,
+      "cultural_distance": 5.02,
+      "language": 3.525,
+      "community": 4.87,
+      "employer_support": 3.629,
+      "local_friends": 5.09,
+      "family_share": 0.452,
+      "corporate_share": 0.295,
+      "self_initiated_share": 0.4347,
+      "study_share": 0.1577,
+      "family_type_share": 0.1126
+    },
+    {
+      "home": "S_Asia",
+      "host": "Oceania",
+      "count": 285,
+      "stay_rate": 0.7298,
+      "expected_stay": 0.7852,
+      "unexplained_gap": -0.0554,
+      "adjustment": 5.516,
+      "cultural_distance": 4.93,
+      "language": 3.646,
+      "community": 4.969,
+      "employer_support": 3.785,
+      "local_friends": 4.923,
+      "family_share": 0.432,
+      "corporate_share": 0.3474,
+      "self_initiated_share": 0.3509,
+      "study_share": 0.1789,
+      "family_type_share": 0.1228
+    },
+    {
+      "home": "S_Asia",
+      "host": "SE_Asia",
+      "count": 524,
+      "stay_rate": 0.7462,
+      "expected_stay": 0.7791,
+      "unexplained_gap": -0.0329,
+      "adjustment": 5.447,
+      "cultural_distance": 5.077,
+      "language": 3.401,
+      "community": 5.09,
+      "employer_support": 3.734,
+      "local_friends": 5.237,
+      "family_share": 0.468,
+      "corporate_share": 0.3053,
+      "self_initiated_share": 0.4103,
+      "study_share": 0.1603,
+      "family_type_share": 0.124
+    },
+    {
+      "home": "S_Asia",
+      "host": "W_Europe",
+      "count": 1711,
+      "stay_rate": 0.7867,
+      "expected_stay": 0.7842,
+      "unexplained_gap": 0.0025,
+      "adjustment": 5.505,
+      "cultural_distance": 4.966,
+      "language": 3.676,
+      "community": 4.911,
+      "employer_support": 3.763,
+      "local_friends": 5.187,
+      "family_share": 0.435,
+      "corporate_share": 0.3068,
+      "self_initiated_share": 0.4126,
+      "study_share": 0.1677,
+      "family_type_share": 0.1128
+    },
+    {
+      "home": "W_Europe",
+      "host": "E_Asia",
+      "count": 776,
+      "stay_rate": 0.8054,
+      "expected_stay": 0.7818,
+      "unexplained_gap": 0.0236,
+      "adjustment": 5.484,
+      "cultural_distance": 4.896,
+      "language": 3.667,
+      "community": 4.807,
+      "employer_support": 3.541,
+      "local_friends": 5.064,
+      "family_share": 0.424,
+      "corporate_share": 0.3028,
+      "self_initiated_share": 0.4008,
+      "study_share": 0.1765,
+      "family_type_share": 0.1198
+    },
+    {
+      "home": "W_Europe",
+      "host": "Gulf",
+      "count": 904,
+      "stay_rate": 0.7821,
+      "expected_stay": 0.7752,
+      "unexplained_gap": 0.0069,
+      "adjustment": 5.369,
+      "cultural_distance": 4.993,
+      "language": 3.674,
+      "community": 4.776,
+      "employer_support": 3.599,
+      "local_friends": 5.188,
+      "family_share": 0.438,
+      "corporate_share": 0.2942,
+      "self_initiated_share": 0.4148,
+      "study_share": 0.1549,
+      "family_type_share": 0.1361
+    },
+    {
+      "home": "W_Europe",
+      "host": "N_America",
+      "count": 1607,
+      "stay_rate": 0.7729,
+      "expected_stay": 0.7776,
+      "unexplained_gap": -0.0047,
+      "adjustment": 5.401,
+      "cultural_distance": 5.006,
+      "language": 3.692,
+      "community": 4.898,
+      "employer_support": 3.6,
+      "local_friends": 5.119,
+      "family_share": 0.462,
+      "corporate_share": 0.2931,
+      "self_initiated_share": 0.4182,
+      "study_share": 0.1612,
+      "family_type_share": 0.1276
+    },
+    {
+      "home": "W_Europe",
+      "host": "Oceania",
+      "count": 388,
+      "stay_rate": 0.8067,
+      "expected_stay": 0.78,
+      "unexplained_gap": 0.0267,
+      "adjustment": 5.362,
+      "cultural_distance": 4.794,
+      "language": 3.552,
+      "community": 4.677,
+      "employer_support": 3.769,
+      "local_friends": 5.137,
+      "family_share": 0.461,
+      "corporate_share": 0.3222,
+      "self_initiated_share": 0.3918,
+      "study_share": 0.183,
+      "family_type_share": 0.1031
+    },
+    {
+      "home": "W_Europe",
+      "host": "SE_Asia",
+      "count": 619,
+      "stay_rate": 0.8013,
+      "expected_stay": 0.7754,
+      "unexplained_gap": 0.0259,
+      "adjustment": 5.47,
+      "cultural_distance": 5.002,
+      "language": 3.534,
+      "community": 4.804,
+      "employer_support": 3.543,
+      "local_friends": 5.234,
+      "family_share": 0.43,
+      "corporate_share": 0.2973,
+      "self_initiated_share": 0.4265,
+      "study_share": 0.1599,
+      "family_type_share": 0.1163
+    },
+    {
+      "home": "W_Europe",
+      "host": "W_Europe",
+      "count": 2236,
+      "stay_rate": 0.7826,
+      "expected_stay": 0.7831,
+      "unexplained_gap": -0.0005,
+      "adjustment": 5.467,
+      "cultural_distance": 4.921,
+      "language": 3.595,
+      "community": 4.864,
+      "employer_support": 3.715,
+      "local_friends": 5.151,
+      "family_share": 0.435,
+      "corporate_share": 0.3193,
+      "self_initiated_share": 0.4123,
+      "study_share": 0.1597,
+      "family_type_share": 0.1087
+    }
+  ],
+  "relocation_types": [
+    {
+      "type": "corporate_assignment",
+      "count": 12110,
+      "share": 0.3028,
+      "stay_rate": 0.827,
+      "expected_stay": 0.827,
+      "adjustment": 6.052,
+      "cultural_distance": 5.025,
+      "language": 3.637,
+      "community": 4.902,
+      "employer_support": 5.953,
+      "pre_move_prep": 4.5,
+      "family_share": 0.444
+    },
+    {
+      "type": "family",
+      "count": 4846,
+      "share": 0.1211,
+      "stay_rate": 0.7491,
+      "expected_stay": 0.7491,
+      "adjustment": 5.163,
+      "cultural_distance": 4.979,
+      "language": 3.596,
+      "community": 4.904,
+      "employer_support": 2.589,
+      "pre_move_prep": 4.445,
+      "family_share": 0.436
+    },
+    {
+      "type": "self_initiated",
+      "count": 16652,
+      "share": 0.4163,
+      "stay_rate": 0.7579,
+      "expected_stay": 0.7579,
+      "adjustment": 5.19,
+      "cultural_distance": 4.993,
+      "language": 3.584,
+      "community": 4.884,
+      "employer_support": 2.599,
+      "pre_move_prep": 4.533,
+      "family_share": 0.438
+    },
+    {
+      "type": "study",
+      "count": 6392,
+      "share": 0.1598,
+      "stay_rate": 0.7656,
+      "expected_stay": 0.7656,
+      "adjustment": 5.206,
+      "cultural_distance": 4.978,
+      "language": 3.594,
+      "community": 4.908,
+      "employer_support": 2.613,
+      "pre_move_prep": 4.48,
+      "family_share": 0.443
+    }
+  ],
+  "missing_explanatory_fields": [
+    "Income and household wealth",
+    "Education level",
+    "Occupation and seniority",
+    "Visa and residency security",
+    "Housing cost and affordability",
+    "Cost of living and compensation",
+    "Healthcare access",
+    "School quality and childcare cost",
+    "Discrimination and legal protections",
+    "Reason for returning and timing of return"
+  ]
+}
